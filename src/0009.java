@@ -30,20 +30,20 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x<0) {
+        if (x < 0) {
             return false;
         }
-        int div = 1,y = x;
-        while (y/10 != 0) {
+        int div = 1, y = x;
+        while (y / 10 != 0) {
             div *= 10;
             y /= 10;
         }
         while (x != 0) {
-            int left = x/div;
-            int right = x%10;
+            int left = x / div;
+            int right = x % 10;
             if (left != right) return false;
-            x = (x%div)/10;
-            div/=100;
+            x = (x % div) / 10;
+            div /= 100;
         }
         return true;
     }

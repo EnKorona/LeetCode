@@ -31,7 +31,7 @@ class Solution {
                 numSet.add(nums[i]);
             }
         }
-        return (int)numSet.iterator().next();
+        return (int) numSet.iterator().next();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

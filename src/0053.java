@@ -18,10 +18,10 @@
 class Solution {
     public int maxSubArray(int[] nums) {
         int max = nums[0];
-        for (int i = 0;i < nums.length;i++) {
+        for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
             max = num > max ? num : max;
-            for (int j = i+1;j < nums.length;j++) {
+            for (int j = i + 1; j < nums.length; j++) {
                 num += nums[j];
                 max = num > max ? num : max;
             }
