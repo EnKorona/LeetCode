@@ -48,38 +48,23 @@
  * }
  */
 class Solution {
+    // 明确这个函数的功能:判断这棵树是否为对称二叉树
     public boolean isSymmetric(TreeNode root) {
-        TreeNode swapTree = swapTree(root);
-        return isSameTree(root, swapTree);
+        return check(root, root);
     }
 
-    private TreeNode swapTree(TreeNode root) {
-        if (root == null) {
-            return root;
-        }
-        TreeNode leftNode = root.left;
-        TreeNode rightNode = root.right;
-        root.left = rightNode;
-        root.right = leftNode;
-        swapTree(root.left);
-        swapTree(root.right);
-        return root;
-    }
-
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        // 判断某两棵二叉树是否相同：根节点相同，而且左右子树都相同
-        // 判断根节点是否相同
+    // 根据需要，构造一个函数，判断对称位置的子树是否为对称的
+    public boolean check(TreeNode p, TreeNode q) {
+        // 判断两个子树是否对称：两棵子树根节点值相等，左侧树的左子树与右侧树的右子树也需要满足子树对称的要求，左侧树右子树与右侧树左子树亦同
         if (p == null && q == null) {
             return true;
         }
         if (p == null || q == null) {
             return false;
         }
-        if (p.val != q.val) {
-            return false;
-        }
-        // 先序遍历左右子树是否相同，返回结果
-        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        // 先序遍历左侧树的每个节点，每个节点对应的右侧树都构成对称二叉树，则整棵树就是对称二叉树
+        return p.val == q.val && check(p.left, q.right) && check(p.right, q.left);
     }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
