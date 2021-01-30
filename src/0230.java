@@ -48,6 +48,7 @@
  * }
  */
 class Solution {
+    // TODO 为何把num和rank带在辅助函数中往下调用时得不到正确结果
     public int kthSmallest(TreeNode root, int k) {
         findKthSmallest(root, k);
         return num;
