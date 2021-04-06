@@ -1,2 +1,2 @@
 # LeetCode
-My LeetCode Solutions Using Java.
+EnKorona's LeetCode Problems' Solutions
