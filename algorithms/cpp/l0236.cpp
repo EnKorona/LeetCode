@@ -56,6 +56,7 @@
 class Solution {
 public:
     TreeNode* ancestor = new TreeNode();
+    // 增加标记位，第一次找到的公共祖先是最近公共祖先，如果不是第一次找到的，就不进行记录
     int flag = 0;
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         judgeCommonAncestor(root,p,q);
