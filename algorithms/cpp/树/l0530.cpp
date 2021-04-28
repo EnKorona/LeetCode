@@ -84,4 +84,44 @@ public:
         return min;
     }
 };
+
+class Solution2 {
+public:
+    int min = INT_MAX;
+    int getMinimumDifference(TreeNode* root) {
+        int pre = -1;
+        inPreMinimum(root,pre);
+        return min;
+    }
+    void inPreMinimum(TreeNode* root,int& pre) {
+        if (root == NULL) return;
+        inPreMinimum(root -> left,pre);
+        if (pre != -1) {
+            int tmp = abs(root -> val - pre);
+            min = tmp < min ? tmp : min;
+        }
+        pre = root -> val;
+        inPreMinimum(root -> right,pre);
+    }
+};
+
+// 这个解答相比解答2的区别在哪里，为什么不行？
+class Solution3 {
+public:
+    int min = INT_MAX;
+    int getMinimumDifference(TreeNode* root) {
+        inPreMinimum(root,NULL);
+        return min;
+    }
+    void inPreMinimum(TreeNode* root,TreeNode* pre) {
+        if (root == NULL) return;
+        inPreMinimum(root -> left,pre);
+        if (pre != NULL) {
+            int tmp = abs(root -> val - pre -> val);
+            min = tmp < min ? tmp : min;
+        }
+        pre = root;
+        inPreMinimum(root -> right,pre);
+    }
+};
 //leetcode submit region end(Prohibit modification and deletion)
