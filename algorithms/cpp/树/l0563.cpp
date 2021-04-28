@@ -73,15 +73,12 @@ public:
         getTilt(root);
         return ans;
     }
-    void getTilt(TreeNode* root) {
-        if (root == NULL) return;
-        getTilt(root -> left);
-        getTilt(root -> right);
-        ans += abs(getSumOfTree(root -> left) -getSumOfTree(root -> right));
-    }
-    int getSumOfTree(TreeNode* root) {
+    int getTilt(TreeNode* root) {
         if (root == NULL) return 0;
-        return root -> val + getSumOfTree(root -> left) + getSumOfTree(root -> right);
+        int left = getTilt(root -> left);
+        int right = getTilt(root -> right);
+        ans +=abs(left - right);
+        return left + right + root -> val;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
