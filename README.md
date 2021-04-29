@@ -494,7 +494,7 @@ EnKorona's LeetCode Problems' Solutions
 | 609  | Find Duplicate File in System                                | Medium     |             |              |              |             |      |
 | 608  | Tree Node $                                                  | Medium     |             |              |              |             |      |
 | 607  | Sales Person  $                                              | Easy       |             |              |              |             |      |
-| 606  | Construct String from Binary Tree                            | Easy       |             |              |              |             |      |
+| 606  | Construct String from Binary Tree                            | Easy       |             |              |              |    可讲      |      |
 | 605  | Can Place Flowers                                            | Easy       |             |              |              |             |      |
 | 604  | Design Compressed String Iterator $                          | Easy       |             |              |              |             |      |
 | 603  | Consecutive Available Seats $                                | Easy       |             |              |              |             |      |
