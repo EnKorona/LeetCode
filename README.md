@@ -589,14 +589,14 @@ EnKorona's LeetCode Problems' Solutions
 | 513  | Find Bottom Left Tree Value                                  | Medium     |             |              |              |             |      |
 | 510  | Inorder Successor in BST II $                                | Medium     |             |              |              |             |      |
 | 509  | Fibonacci Number                                             | Easy       |             |              |              |             |      |
-| 508  | Most Frequent Subtree Sum                                    | Medium     |             |              |              |             |      |
+| 508  | Most Frequent Subtree Sum                                    | Medium     | √ |              | NO | #辅助函数 |      |
 | 507  | Perfect Number                                               | Easy       |             |              |              |             |      |
 | 506  | Relative Ranks                                               | Easy       |             |              |              |             |      |
 | 505  | The Maze II                                                  | Medium     |             |              |              |             |      |
 | 504  | Base 7                                                       | Easy       |             |              |              |             |      |
 | 503  | Next Greater Element II                                      | Medium     |             |              |              |             |      |
 | 502  | IPO                                                          | Hard       |             |              |              |             |      |
-| 501  | Find Mode in Binary Search Tree                              | Easy       |             |              |              |             |      |
+| 501  | Find Mode in Binary Search Tree                              | Easy       | √ |              | NO | #辅助函数 |      |
 | 500  | Keyboard Row                                                 | Easy       |             |              |              |             |      |
 | 499  | The Maze III                                                 | Hard       |             |              |              |             |      |
 | 498  | Diagonal Traverse                                            | Medium     |             |              |              |             |      |
@@ -647,8 +647,8 @@ EnKorona's LeetCode Problems' Solutions
 | 453  | Minimum Moves to Equal Array Elements                        | Easy       |             |              |              |             |      |
 | 452  | Minimum Number of Arrows to Burst Balloons                   | Medium     |             |              |              |             |      |
 | 451  | Sort Characters By Frequency                                 | Medium     |             |              |              |             |      |
-| 450  | Delete Node in a BST                                         | Medium     |             |              |              |             |      |
-| 449  | Serialize and Deserialize BST                                | Medium     |             |              |              |             |      |
+| 450  | Delete Node in a BST                                         | Medium     | √ |              | NO | #二叉搜索树删除节点 |      |
+| 449  | Serialize and Deserialize BST                                | Medium     | √ |              | 差远了 |             |      |
 | 448  | Find All Numbers Disappeared in an Array                     | Easy       |             |              |              |             |      |
 | 447  | Number of Boomerangs                                         | Easy       |             |              |              |             |      |
 | 446  | Arithmetic Slices II - Subsequence                           | Hard       |             |              |              |             |      |
@@ -660,7 +660,7 @@ EnKorona's LeetCode Problems' Solutions
 | 440  | K-th Smallest in Lexicographical Order                       | Hard       |             |              |              |             |      |
 | 439  | Ternary Expression Parser $                                  | Medium     |             |              |              |             |      |
 | 438  | Find All Anagrams in a String                                | Easy       |             |              |              |             |      |
-| 437  | Path Sum III                                                 | Easy       |             |              |              |             |      |
+| 437  | Path Sum III                                                 | Easy       | √ |              | NO |             |      |
 | 436  | Find Right Interval                                          | Medium     |             |              |              |             |      |
 | 435  | Non-overlapping Intervals                                    | Medium     |             |              |              |             |      |
 | 434  | Number of Segments in a String                               | Easy       |             |              |              |             |      |
@@ -693,7 +693,7 @@ EnKorona's LeetCode Problems' Solutions
 | 407  | Trapping Rain Water II                                       | Hard       |             |              |              |             |      |
 | 406  | Queue Reconstruction by Height                               | Medium     |             |              |              |             |      |
 | 405  | Convert a Number to Hexadecimal                              | Easy       |             |              |              |             |      |
-| 404  | Sum of Left Leaves                                           | Easy       |             |              |              |             |      |
+| 404  | Sum of Left Leaves                                           | Easy       | √ |              | NO | #辅助函数 |      |
 | 403  | Frog Jump                                                    | Hard       |             |              |              |             |      |
 | 402  | Remove K Digits                                              | Medium     |             |              |              |             |      |
 | 401  | Binary Watch                                                 | Easy       |             |              |              |             |      |
@@ -800,7 +800,7 @@ EnKorona's LeetCode Problems' Solutions
 | 300  | Longest Increasing Subsequence                               | Medium     |             |              |              |             |      |
 | 299  | Bulls and Cows                                               | Easy       |             |              |              |             |      |
 | 298  | Binary Tree Longest Consecutive Sequence $                   | Medium     |             |              |              |             |      |
-| 297  | Serialize and Deserialize Binary Tree                        | Medium     |             |              |              |             |      |
+| 297  | Serialize and Deserialize Binary Tree                        | Medium     | √ |              | NO | #辅助函数#序列化反序列化 |      |
 | 296  | Best Meeting Point $                                         | Hard       |             |              |              |             |      |
 | 295  | Find Median from Data Stream                                 | Hard       |             |              |              |             |      |
 | 294  | Flip Game II $                                               | Medium     |             |              |              |             |      |
@@ -840,7 +840,7 @@ EnKorona's LeetCode Problems' Solutions
 | 260  | Single Number III                                            | Medium     |             |              |              |             |      |
 | 259  | 3Sum Smaller $                                               | Medium     |             |              |              |             |      |
 | 258  | Add Digits                                                   | Easy       |             |              |              |             |      |
-| 257  | Binary Tree Paths                                            | Easy       |             |              |              |             |      |
+| 257  | Binary Tree Paths                                            | Easy       | √ |              | NO | #辅助函数 |      |
 | 256  | Paint House $                                                | Medium     |             |              |              |             |      |
 | 255  | Verify Preorder Sequence in Binary Search Tree $             | Medium     |             |              |              |             |      |
 | 254  | Factor Combinations $                                        | Medium     |             |              |              |             |      |
@@ -861,21 +861,21 @@ EnKorona's LeetCode Problems' Solutions
 | 239  | Sliding Window Maximum                                       | Hard       |             |              |              |             |      |
 | 238  | Product of Array Except Self                                 | Medium     |             |              |              |             |      |
 | 237  | Delete Node in a Linked List                                 | Easy       |             |              |              |             |      |
-| 236  | Lowest Common Ancestor of a Binary Tree                      | Medium     |             |              |              |             |      |
-| 235  | Lowest Common Ancestor of a Binary Search Tree               | Medium     |             |              |              |             |      |
+| 236  | Lowest Common Ancestor of a Binary Tree                      | Medium     |             |              |              | #辅助函数#最近公共祖先 |      |
+| 235  | Lowest Common Ancestor of a Binary Search Tree               | Medium     | √ |              | NO | #辅助函数#最近公共祖先 |      |
 | 234  | Palindrome Linked List                                       | Easy       |             |              |              |             |      |
 | 233  | Number of Digit One                                          | Medium     |             |              |              |             |      |
 | 232  | Implement Queue using Stacks                                 | Easy       |             |              |              |             |      |
 | 231  | Power of Two                                                 | Easy       |             |              |              |             |      |
-| 230  | Kth Smallest Element in a BST                                | Medium     |             |              |              |             |      |
+| 230  | Kth Smallest Element in a BST                                | Medium     | √ |              | NO | #辅助函数#二叉搜索树 |      |
 | 229  | Majority Element II                                          | Medium     |             |              |              |             |      |
 | 228  | Summary Ranges                                               | Easy       |             |              |              |             |      |
 | 227  | Basic Calculator II                                          | Medium     |             |              |              |             |      |
-| 226  | Invert Binary Tree                                           | Easy       |             |              |              |             |      |
+| 226  | Invert Binary Tree                                           | Easy       | √ |              | NO |             |      |
 | 225  | Implement Stack using Queues                                 | Medium     |             |              |              |             |      |
 | 224  | Basic Calculator                                             | Medium     |             |              |              |             |      |
 | 223  | Rectangle Area                                               | Easy       |             |              |              |             |      |
-| 222  | Count Complete Tree Nodes                                    | Medium     |             |              |              |             |      |
+| 222  | Count Complete Tree Nodes                                    | Medium     | √ |              | 差远了 |             |      |
 | 221  | Maximal Square                                               | Medium     |             |              |              |             |      |
 | 220  | Contains Duplicate III                                       | Medium     |             |              |              |             |      |
 | 219  | Contains Duplicate II                                        | Easy       |             |              |              |             |      |
@@ -968,7 +968,7 @@ EnKorona's LeetCode Problems' Solutions
 | 132  | Palindrome Partitioning II                                   | Hard       |             |              |              |             |      |
 | 131  | Palindrome Partitioning                                      | Medium     |             |              |              |             |      |
 | 130  | Surrounded Regions                                           | Medium     |             |              |              |             |      |
-| 129  | Sum Root to Leaf Numbers                                     | Medium     |             |              |              |             |      |
+| 129  | Sum Root to Leaf Numbers                                     | Medium     | √ |              | NO | #辅助函数 |      |
 | 128  | Longest Consecutive Sequence                                 | Hard       |             |              |              |             |      |
 | 127  | Word Ladder                                                  | Medium     |             |              |              |             |      |
 | 126  | Word Ladder II                                               | Hard       |             |              |              |             |      |
@@ -981,23 +981,23 @@ EnKorona's LeetCode Problems' Solutions
 | 119  | Pascal's Triangle II                                         | Easy       |             |              |              |             |      |
 | 118  | Pascal's Triangle                                            | Easy       |             |              |              |             |      |
 | 117  | Populating Next Right Pointers in Each Node II               | Hard       |             |              |              |             |      |
-| 116  | Populating Next Right Pointers in Each Node                  | Medium     |             |              |              |             |      |
+| 116  | Populating Next Right Pointers in Each Node                  | Medium     | √ |              | NO | #技巧 |      |
 | 115  | Distinct Subsequences                                        | Hard       |             |              |              |             |      |
-| 114  | Flatten Binary Tree to Linked List                           | Medium     |             |              |              |             |      |
-| 113  | Path Sum II                                                  | Medium     |             |              |              |             |      |
-| 112  | Path Sum                                                     | Easy       |             |              |              |             |      |
-| 111  | Minimum Depth of Binary Tree                                 | Easy       |             |              |              |             |      |
-| 110  | Balanced Binary Tree                                         | Easy       |             |              |              |             |      |
+| 114  | Flatten Binary Tree to Linked List                           | Medium     | √ |              | NO | #辅助函数 |      |
+| 113  | Path Sum II                                                  | Medium     | √ |              | NO | 112的复杂版 |      |
+| 112  | Path Sum                                                     | Easy       | √ |              | NO |             |      |
+| 111  | Minimum Depth of Binary Tree                                 | Easy       | √ |              | NO |             |      |
+| 110  | Balanced Binary Tree                                         | Easy       | √ |              | 差远了 | #辅助函数 |      |
 | 109  | Convert Sorted List to Binary Search Tree                    | Medium     |             |              |              |             |      |
-| 108  | Convert Sorted Array to Binary Search Tree                   | Medium     |             |              |              |             |      |
+| 108  | Convert Sorted Array to Binary Search Tree                   | Medium     | √ |              | NO | #辅助函数 |      |
 | 107  | Binary Tree Level Order Traversal II                         | Easy       |             |              |              |             |      |
-| 106  | Construct Binary Tree from Inorder and Postorder Traversal   | Medium     |             |              |              |             |      |
-| 105  | Construct Binary Tree from Preorder and Inorder Traversal    | Medium     |             |              |              |             |      |
-| 104  | Maximum Depth of Binary Tree                                 | Easy       |             |              |              |             |      |
+| 106  | Construct Binary Tree from Inorder and Postorder Traversal   | Medium     | √ |              | NO | #中后序构造二叉树#辅助函数 |      |
+| 105  | Construct Binary Tree from Preorder and Inorder Traversal    | Medium     | √ |              | NO | #前中序构造二叉树#辅助函数 |      |
+| 104  | Maximum Depth of Binary Tree                                 | Easy       | √ |              | NO |             |      |
 | 103  | Binary Tree Zigzag Level Order Traversal                     | Medium     |             |              |              |             |      |
 | 102  | Binary Tree Level Order Traversal                            | Easy       |             |              |              |             |      |
-| 101  | Symmetric Tree                                               | Easy       |             |              |              |             |      |
-| 100  | Same Tree                                                    | Easy       |             |              |              |             |      |
+| 101  | Symmetric Tree                                               | Easy       | √ |              | NO | #两棵树#辅助函数 |      |
+| 100  | Same Tree                                                    | Easy       | √ |              | NO | #两棵树 |      |
 | 99   | Recover Binary Search Tree                                   | Hard       |             |              |              |             |      |
 | 98   | Validate Binary Search Tree                                  | Medium     |             |              |              |             |      |
 | 97   | Interleaving String                                          | Hard       |             |              |              |             |      |
