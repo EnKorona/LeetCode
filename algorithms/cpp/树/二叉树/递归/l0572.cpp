@@ -68,6 +68,7 @@ public:
         preIsSubtree(s,t);
         return flag;
     }
+    // 遍历比较s的每棵子树与t，判断是否相同
     void preIsSubtree(TreeNode* s, TreeNode* t) {
         if (s == NULL) return;
         if (s -> val == t -> val) {
@@ -80,6 +81,7 @@ public:
         preIsSubtree(s -> left,t);
         preIsSubtree(s -> right,t);
     }
+    // 对传入的两棵树判断是否相同
     bool judgeSameTree(TreeNode* s, TreeNode* t) {
         if (s == NULL && t == NULL) return true;
         if (s != NULL && t == NULL) return false;
