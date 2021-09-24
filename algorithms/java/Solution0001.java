@@ -16,16 +16,18 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution0001 {
     public int[] twoSum(int[] nums, int target) {
+        // key:数值,value:索引
+        Map<Integer, Integer> mp = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    return new int[]{i, j};
-                }
+            if (mp.containsKey(target - nums[i])) {
+                return new int[]{mp.get(target - nums[i]), i};
+            } else {
+                mp.put(nums[i], i);
             }
         }
-        return null;
+        return new int[]{0, 0};
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

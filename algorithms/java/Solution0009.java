@@ -28,24 +28,17 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution0009 {
     public boolean isPalindrome(int x) {
-        if (x < 0) {
-            return false;
+        if (x < 0) return false;
+        int tmp = x, reverse = 0;
+        while (tmp != 0) {
+            int pop = tmp % 10;
+            tmp = tmp / 10;
+            reverse = reverse * 10 + pop;
         }
-        int div = 1, y = x;
-        while (y / 10 != 0) {
-            div *= 10;
-            y /= 10;
-        }
-        while (x != 0) {
-            int left = x / div;
-            int right = x % 10;
-            if (left != right) return false;
-            x = (x % div) / 10;
-            div /= 100;
-        }
-        return true;
+        if (reverse == x) return true;
+        return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

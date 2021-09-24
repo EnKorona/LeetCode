@@ -26,18 +26,18 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution0007 {
     public int reverse(int x) {
-        long temp = 0;
+        long tmp = 0;
         while (x != 0) {
             int pop = x % 10;
-            temp = temp * 10 + pop;
-            if (temp > Integer.MAX_VALUE || temp < Integer.MIN_VALUE) {
-                return 0;
-            }
-            x /= 10;
+            tmp = tmp * 10 + pop;
+            x = x / 10;
         }
-        return (int) temp;
+        if (tmp > Integer.MAX_VALUE || tmp < Integer.MIN_VALUE) {
+            return 0;
+        }
+        return (int) tmp;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
