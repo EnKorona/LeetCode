@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/language-Java-yellow.svg)
 ![](https://img.shields.io/badge/%3E-leetcode-green.svg)
 
-EnKorona's LeetCode Problems' Solutions
+ZINE's LeetCode Problems' Solutions
 
 Proficiency:★★★★★：No prompt,Complete independently,Use appropriate method,No need to review
 
